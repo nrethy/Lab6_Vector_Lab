@@ -1,0 +1,6 @@
+# dependency files
+*.d
+#object files 
+*.0
+#the exe file
+exe

@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
         printf(" list lists every vector\n");
         printf(" clear clears all vectors\n");
         printf(" quit exits\n");
+        printf(" scalars can be added like 1 + b or b + 1\n");
         return 0;
     }
     while (1) {
