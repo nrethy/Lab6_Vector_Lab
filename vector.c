@@ -20,7 +20,7 @@ void add(struct Vector *a, struct Vector *b, struct Vector *c){
     a->ijk[1] = b->ijk[1] + c->ijk[1];
     a->ijk[2] = b->ijk[2] + c->ijk[2];
 }
-
+// hi i am adding something
 void sub(struct Vector *a, struct Vector *b, struct Vector *c){
     a->ijk[0] = b->ijk[0] - c->ijk[0];
     a->ijk[1] = b->ijk[1] - c->ijk[1];
