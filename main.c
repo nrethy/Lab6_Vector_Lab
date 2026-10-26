@@ -25,10 +25,9 @@ int main(int argc, char *argv[]) {
         printf("minimat> ");
         fgets(data, sizeof(data), stdin);
         data[strcspn(data, "\n")] = '\0'; 
-        if (strcmp(data, "quit") == 0) {
+        if(logic(data) != NULL){
             return 0;
         }
-        logic(data);
         memset(data, 0, sizeof(data));
     }
     return 0;

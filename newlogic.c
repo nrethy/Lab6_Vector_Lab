@@ -110,7 +110,7 @@ char* logic(char data[]){
         }
         fclose(fp);
         return 0;
-    // saving a file
+        // saving a file
     }else if (sscanf(data, "save <%49[^>]>", test) == 1){
         FILE *fp;
         fp = fopen(test, "w");
@@ -147,6 +147,10 @@ char* logic(char data[]){
                 return 0;
             }
         } 
+    }else if(strcmp(data, "quit") == 0){
+        static char test = 'a';
+        free(vectors);
+        return &test;
     // check for list
     }else if(strcmp(data, "list") == 0){
         for(int i=3; i<vector_count+3; i++){
