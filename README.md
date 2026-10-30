@@ -26,6 +26,8 @@ run make to compile using the makefile
 - list : This will list stored vectors
 - a : using the name of any vector(a in this example) you can print the values
   in the vector
+- load <filename.csv> : this can be used to load vectors from a csv file
+- save <filename.csv> : this will save vectors to a csv file
 - quit : this will exit the program
 
 ## Dynamic Memory
