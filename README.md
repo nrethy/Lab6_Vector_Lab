@@ -18,8 +18,8 @@ run make to compile using the makefile
 - a = a + b : you can do a vector operation that outputs to a vector
   - Various operations can be performed including addition(+)
     multiplication(*) and subtraction(-) by modifying the operator
-  - Scalar operations can also be performed by using numbers, for example a = 1
-    + b
+  - a + 1 : Scalar operations can also be performed by using numbers to replace
+    vectors
 - a + b : you can do a vector operation that does not output to a vector
   - note that the same operations as before can be performed
 - clear : This will clear any stored vectors
@@ -31,6 +31,6 @@ run make to compile using the makefile
 - quit : this will exit the program
 
 ## Dynamic Memory
- 
-This program makes use of dynamic memories and pointers to store up to 52 vectors
+
+This program makes use of dynamic memorie and pointers by storing vectors in a pointer, which can store up to 52 vectors
 
