@@ -12,3 +12,23 @@ run make to compile using the makefile
   are letters
 - Reads and writes the vectors to CSV files
 
+## Commands Supported
+
+- a = 1 2 3 : You can provide any letter and assign to it a vector value
+- a = a + b : you can do a vector operation that outputs to a vector
+  - Various operations can be performed including addition(+)
+    multiplication(*) and subtraction(-) by modifying the operator
+  - Scalar operations can also be performed by using numbers, for example a = 1
+    + b
+- a + b : you can do a vector operation that does not output to a vector
+  - note that the same operations as before can be performed
+- clear : This will clear any stored vectors
+- list : This will list stored vectors
+- a : using the name of any vector(a in this example) you can print the values
+  in the vector
+- quit : this will exit the program
+
+## Dynamic Memory
+ 
+This program makes use of dynamic memories and pointers to store up to 52 vectors
+
